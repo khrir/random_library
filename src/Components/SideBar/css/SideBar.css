@@ -1,0 +1,25 @@
+.sidebar {
+    width: 20%;
+    height: 100vh;
+    background: white;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;}
+
+.sidebar-logo {
+    font-weight: 700;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-icon {
+    margin-right: 5px;
+}
+
+ul {
+    margin-top: 0.750rem;
+    color: black;
+    font-weight: 700;
+    list-style: none;
+}

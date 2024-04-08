@@ -1,0 +1,39 @@
+.aside-item {
+    display: flex;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    align-items: center;
+}
+
+.aside-icon {
+    display: flex;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+    background: rgb(243 244 246);
+    border-radius: 5px;
+    padding: 3px;
+}
+
+/* li:nth-child(1) .aside-icon {
+    background: red;
+} */
+
+li {
+    border-radius: 10px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+li:hover .aside-icon{
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+    background-color: rgb(59 130 246);
+}
+
+li a {
+    text-decoration: none;
+    padding-left: 0.750rem;
+    padding-right: 0.750rem;
+    color: black;
+
+}
