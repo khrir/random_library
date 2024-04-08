@@ -1,7 +1,7 @@
 import React from 'react'
 import "./css/RecommendedSection.css"
 import Book from './Book'
-import path from '../../../public/book.jpg'
+import path from '/book.jpg'
 
 const RecommendedSection = (props) => {
   return (

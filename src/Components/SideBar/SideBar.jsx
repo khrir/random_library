@@ -16,11 +16,11 @@ function SideBar() {
 
             <div className="sidebar-items">
                 <ul>
-                    <li><Item href="#" icon = {<IoHomeOutline/>} title = 'Home' /></li>
-                    <li><Item href="#" icon = {<BiCategory/>} title = 'Category' /></li>
-                    <li><Item href="#" icon = {<FiBookOpen/>} title = 'My library' /></li>
-                    <li><Item href="#" icon = {<FaRegHeart/>} title = 'Favourite' /></li>
-                    <li><Item href="#" icon = {<FaMagic/>} title = 'Maroto' /></li>
+                    <Item href="#" icon = {<IoHomeOutline/>} title = 'Home' />
+                    <Item href="#" icon = {<BiCategory/>} title = 'Category' />
+                    <Item href="#" icon = {<FiBookOpen/>} title = 'My library' />
+                    <Item href="#" icon = {<FaRegHeart/>} title = 'Favourite' />
+                    <Item href="#" icon = {<FaMagic/>} title = 'Maroto' />
                 </ul>
             </div>
 

@@ -3,7 +3,7 @@ import './css/NavBar.css'
 import { SearchField } from './SearchField'
 import Notifications from './Notifications'
 import UserProfile from './UserProfile'
-import path from '../../../public/icone.jpg'
+import path from '/icone.jpg'
 
 const NavBar = () => {
     return (
